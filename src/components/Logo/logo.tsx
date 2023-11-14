@@ -3,5 +3,5 @@ import * as styles from "./logo.module.scss";
 import React from "react";
 
 export default function Logo() {
-  return <span className={styles.logo}>Logo</span>;
+  return <div className={styles.logo}></div>;
 }

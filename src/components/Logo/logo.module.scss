@@ -1,6 +1,14 @@
 @use "sass:map";
 @import "../../assets/styles/variables.scss";
 
+$logoHeight: 170px;
+
 .logo{
     @include fluidFontSize(24px, 36px, 480px, 1280px, 18px);
+    background-image: url("https://cdn-ru.bitrix24.ru/b12079844/crm/223/22330e61506efe9ad75619bba414314e/d0796b7fcc33af1e4028f27badee27ce.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: $logoHeight;
+    width: calc($logoHeight - (51px / (637px / $logoHeight)));
 }
