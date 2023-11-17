@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={commonStyles.container}>
-        <h2>© 2022 ALEF STUDIO. Все права защищены.</h2>
+        <h2>© 2023 ALEF STUDIO. Все права защищены.</h2>
       </div>
     </footer>
   );
