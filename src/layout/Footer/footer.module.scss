@@ -2,13 +2,15 @@
 @import "../../assets/styles/variables.scss";
 
 .footer {
-  min-height: 20vh;
-  background-color: map.get($colors, dark-grey);
+  min-height: 5vh;
+  background-color: map.get($colors, footer-gray);
   color: map.get($colors, white);
   flex: 0 0 auto;
   padding: 10px 0;
 
   h2 {
-    color: map.get($colors, violet);
+    text-align: center;
+    font-size: 2vh;
+    color: map.get($colors, white);
   }
 }
